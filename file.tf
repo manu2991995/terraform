@@ -1,6 +1,5 @@
 resource "local_file" "m2" {
   filename = var.filename
-  content  = "Hello Terraform"
 }
 
 variable "filename" {
